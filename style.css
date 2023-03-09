@@ -1,0 +1,96 @@
+*{
+ margin: 0px;   
+}
+:root{
+    --OragneColor :#eb912a;
+    --LightGreyColor :#9ca8b4ac;
+    --DarkGreyColor:#39585dde;
+}
+
+.OragneColor{
+    background-color: var(--OragneColor);
+}
+.LightGreyColor{
+    background-color: var(--LightGreyColor);
+}
+.DarkGreyColor{
+    background-color: var(--DarkGreyColor);
+}
+
+/* calculator Body */
+#calculatorBody{
+    margin:50px auto;
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    border-radius:30px ;
+    background-color: rgb(0, 0, 0);
+}
+
+/* (header) calculator Screan */
+#CalculatorScreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 95%;
+    height: 150px;
+    margin: 15px auto;   
+}
+/* Inputs */
+/* Hide the number input's increase and decrease buttons in Microsoft Edge */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outter-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+.inputs{
+    color: white;
+    background-color: black;
+    width: 99%;
+    height: 60px;
+    font-size: 3rem;
+    text-align: end;
+    border: 0px;
+}
+
+
+/*(Main) Calculator Body Or Button Secton */
+#calculatorButtons-Section{
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    padding-top:10px;
+}
+
+/* BTS Column*/
+.BTS{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+/* Buttons */
+.btns{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.btns:hover{
+    color: rgb(21, 21, 21);
+}
+
+
+#ZeroBtn{
+    width: 155px;
+    border-radius: 50px;
+}
+
+
