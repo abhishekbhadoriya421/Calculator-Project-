@@ -13,15 +13,16 @@ No Framework and other resources are used to create this application
 This application is very helpful for those who are doing mathematical operations 
 
 
-# javaScript Functions
+# > javaScript Functions
 Let me Explain you Some important java script function which i have created in my project so that it can help you to understand the code more clearly 
 
-This are the all HTML Element's I have fetched 
+### This are the all HTML Element's I have fetched 
 
 ``` js
 let buttons = document.querySelectorAll(".BTS p");
 let firstInputContainer = document.querySelector("#secondValue input");
 let firstValue = document.getElementById("firstValue");
 ```
+
 
 
