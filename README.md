@@ -18,8 +18,10 @@ Let me Explain you Some important java script function which i have created in m
 
 This are the all HTML Element's I have fetched 
 
-```let buttons = document.querySelectorAll(".BTS p");
+``` js
+let buttons = document.querySelectorAll(".BTS p");
 let firstInputContainer = document.querySelector("#secondValue input");
-let firstValue = document.getElementById("firstValue"); ```
+let firstValue = document.getElementById("firstValue");
+```
 
 
