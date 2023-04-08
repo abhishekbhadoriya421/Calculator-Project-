@@ -40,7 +40,8 @@ function Calculation(num1, num2 , operator){
     }else if(operator=='%'){
         return num1%num2;
   }
-} ```
+} 
+```
 
 this is the main function which is taking 3 parameters as arguments one is operator and remaining two are operands
 
@@ -117,7 +118,8 @@ function pressedBTN(element){
         firstInputContainer.value = 0; 
         firstValue.textContent = (firstOperand + num);
     }
-} ```
+}
+```
 
 This Function keeps track which key is pressed if its a valid key then it performs the operation corresponding to that pressed Key other wise it does nothing  
 
