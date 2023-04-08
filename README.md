@@ -12,8 +12,10 @@ Java Script is used to perform all logical operation
 ## Usage
    > This application is very helpful for those who are doing mathematical operations 
 
+   
 
-## javaScript Functions
+
+## JavaScript Functions
    > Let me Explain you Some important java script function which i have created in my project so that it can help you to understand the code more clearly 
 
 ### This are the all HTML Element's I have fetched 
